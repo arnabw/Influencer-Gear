@@ -1,0 +1,143 @@
+/* Medium Device */
+@media only screen and (min-width:640px) and (max-width:1024px) {
+
+    /* Shared Style */
+    :root {
+        /* Font Size */
+        --primary-size: 0.75rem;
+        /*12px*/
+        --secondary-size: 1.09375rem;
+        /*17.5px*/
+        --optional-size: 1.25rem;
+        /*20px*/
+    }
+
+    .container {
+        width: 71%;
+        max-width: 64rem;
+    }
+
+    .shared-description {
+        max-width: 25rem;
+        margin: 0.75rem 0;
+    }
+
+    /* Header Section  */
+    #head {
+        padding: 3.5rem 0;
+    }
+
+    #head .nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    #head .nav .nav-title,
+    #head .nav .nav-list {
+        width: 100%;
+    }
+
+    #head .banner {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    #head .banner .banner-content .banner-title {
+        font-size: 2.3rem;
+        line-height: 3.10rem;
+        max-width: 25.82rem;
+    }
+
+    #head .banner .banner-img .banner-content-img img {
+        max-width: 19.525rem;
+    }
+
+    /* Main Section  */
+
+    /* Sponsor Section  */
+    #main .sponsor {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-bottom: 6rem;
+    }
+
+    #main .sponsor img {
+        max-width: 4rem;
+    }
+
+    /* Collection Section  */
+    #collection .collection-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    #collection .collection-card .box-card {
+        gap: 0.25rem;
+        max-width: 15rem;
+        padding: 0.8rem;
+    }
+
+    #collection .collection-card .box-card img {
+        max-width: 14rem;
+    }
+
+    #collection .collection-card .box-card .collection-title {
+        line-height: 1.8rem;
+    }
+
+    #collection .collection-card .box-card .collection-price {
+        line-height: 1.60rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating {
+        gap: 0.4rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating i {
+        max-width: 0.60rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating span {
+        font-size:smaller;
+        line-height: 1rem;
+    }
+
+    #collection .collection-card .box-card .collection-description {
+        font-size:smaller;
+        line-height: 1rem;
+        max-width: 8.7rem;
+    }
+
+    #seeMore {
+        justify-content: center;
+    }
+
+    /* Featured Products Section  */
+#featured-products {
+    padding: 4.5rem 0;
+}
+#featured-products .featured-products-container {
+    gap: 4rem;
+    justify-content: center;
+}
+#featured-products .featured-products-container .featured-products-img img {
+    max-width: 18rem;
+}
+
+#featured-products .featured-products-container .featured-products-contain .featured-products-title {
+    font-size: 1.7rem;
+    line-height: 2.67rem;
+}
+
+/* Footer Section */
+#foot {
+    padding: 2.5rem 0;
+}
+#foot .foot-container .foot-description {
+    font-size: 0.62rem;
+}
+}

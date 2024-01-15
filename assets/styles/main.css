@@ -214,7 +214,7 @@
     font-family: var(--secondary-font);
     font-size: large;
     font-weight: 700;
-    line-height: 1.26;
+    line-height: 1.26rem;
     letter-spacing: 0.252px;
     width: 100%;
     max-width: 12.25rem;
@@ -254,4 +254,47 @@
     font-size: 2.375rem;
     font-weight: 700;
     line-height: 3.75rem;
+}
+
+/* Footer Section */
+#foot {
+    padding: 3.125rem 0;
+    background: #0A0826;
+}
+
+#foot .foot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#foot .foot-container .foot-title {
+    color: #FFF;
+    font-size: var(--secondary-size);
+    font-weight: 700;
+}
+
+#foot .foot-container .foot-description {
+    color: #D9DBE1;
+    font-family: var(--optional-font);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: var(--secondary-size);
+}
+
+#foot .foot-container .foot-icon{
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+#foot .foot-container .foot-icon span{
+    background: #22213C;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+#foot .foot-container .foot-icon span i{
+    color: #FFF;
 }
