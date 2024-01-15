@@ -102,12 +102,12 @@
     }
 
     #collection .collection-card .box-card .collection-rating span {
-        font-size:smaller;
+        font-size: smaller;
         line-height: 1rem;
     }
 
     #collection .collection-card .box-card .collection-description {
-        font-size:smaller;
+        font-size: smaller;
         line-height: 1rem;
         max-width: 8.7rem;
     }
@@ -117,27 +117,204 @@
     }
 
     /* Featured Products Section  */
-#featured-products {
-    padding: 4.5rem 0;
-}
-#featured-products .featured-products-container {
-    gap: 4rem;
-    justify-content: center;
-}
-#featured-products .featured-products-container .featured-products-img img {
-    max-width: 18rem;
+    #featured-products {
+        padding: 4.5rem 0;
+    }
+
+    #featured-products .featured-products-container {
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    #featured-products .featured-products-container .featured-products-img img {
+        max-width: 18rem;
+    }
+
+    #featured-products .featured-products-container .featured-products-contain .featured-products-title {
+        font-size: 1.7rem;
+        line-height: 2.67rem;
+    }
+
+    /* Footer Section */
+    #foot {
+        padding: 2.5rem 0;
+    }
+
+    #foot .foot-container .foot-description {
+        font-size: 0.62rem;
+    }
 }
 
-#featured-products .featured-products-container .featured-products-contain .featured-products-title {
-    font-size: 1.7rem;
-    line-height: 2.67rem;
-}
 
-/* Footer Section */
-#foot {
-    padding: 2.5rem 0;
-}
-#foot .foot-container .foot-description {
-    font-size: 0.62rem;
-}
+/* Small Device */
+@media only screen and (max-width:640px) {
+
+    /* Shared Style */
+    :root {
+        /* Font Size */
+        --primary-size: 0.5rem;
+        /*12px*/
+        --secondary-size: 0.7rem;
+        /*17.5px*/
+        --optional-size: 0.8rem;
+        /*20px*/
+    }
+
+    .container {
+        width: 44%;
+        max-width: 40rem;
+    }
+
+    .shared-description {
+        max-width: 20rem;
+        margin: 0.6rem 0;
+    }
+
+    .shared-button {
+        font-size: 0.8rem;
+    }
+
+    .shared-button i {
+        top: 3px;
+        left: 0px;
+    }
+
+    /* Header Section  */
+    #head {
+        padding: 2rem 0;
+    }
+
+    #head .nav {
+        flex-direction: column;
+        gap: 0.4rem;
+        text-align: center;
+    }
+
+    #head .nav .nav-title,
+    #head .nav .nav-list {
+        width: 100%;
+    }
+
+    #head .nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #head .banner {
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    #head .banner .banner-content .banner-title {
+        font-size: 1.75rem;
+        max-width: 20rem;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    #head .banner .banner-img .banner-content-img img {
+        max-width: 12.625rem;
+    }
+
+    /* Main Section  */
+
+    /* Sponsor Section  */
+    #main .sponsor {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.8rem;
+        margin-bottom: 3rem;
+    }
+
+    #main .sponsor img {
+        max-width: 3rem;
+    }
+
+    /* Collection Section  */
+    #collection .collection-card {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        margin: 1.5rem 0;
+    }
+
+    #collection .collection-card .box-card {
+        max-width: 20.57rem;
+        padding: 1rem;
+    }
+
+    #collection .collection-card .box-card img {
+        max-width: 18.75rem;
+    }
+
+    #collection .collection-card .box-card .collection-title {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    #collection .collection-card .box-card .collection-price {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating {
+        gap: 0.5rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating i {
+        max-width: 0.70rem;
+    }
+
+    #collection .collection-card .box-card .collection-rating span {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    #collection .collection-card .box-card .collection-description {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        max-width: 12.25rem;
+    }
+
+    #seeMore {
+        justify-content: center;
+    }
+
+    /* Featured Products Section  */
+    #featured-products {
+        padding: 3rem 0;
+    }
+
+    #featured-products .featured-products-container {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    #featured-products .featured-products-container .featured-products-img img {
+        max-width: 16rem;
+    }
+
+    #featured-products .featured-products-container .featured-products-contain .featured-products-title {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+
+    /* Footer Section */
+    #foot {
+        padding: 1rem 0;
+    }
+
+    #foot .foot-container .foot-description {
+        font-size: 0.4rem;
+    }
+
+    #foot .foot-container .foot-icon{
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    #foot .foot-container .foot-icon span{
+        padding: 3px 6px;
+    }
 }
